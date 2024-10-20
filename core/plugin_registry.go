@@ -24,6 +24,26 @@ import (
 	"github.com/danielmiessler/fabric/plugins/tools/jina"
 	"github.com/danielmiessler/fabric/plugins/tools/lang"
 	"github.com/danielmiessler/fabric/plugins/tools/youtube"
+
+	"github.com/w4ester/fabric4ester/plugins/ai/azure"
+    	"github.com/w4ester/fabric4ester/plugins/tools"
+    
+	"github.com/w4ester/fabric4ester/plugins"
+    	"github.com/w4ester/fabric4ester/plugins/ai"
+	"github.com/w4ester/fabric4ester/plugins/ai/anthropic"
+	"github.com/w4ester/fabric4ester/plugins/ai/dryrun"
+	"github.com/w4ester/fabric4ester/plugins/ai/gemini"
+	"github.com/w4ester/fabric4ester/plugins/ai/groq"
+	"github.com/w4ester/fabric4ester/plugins/ai/mistral"
+	"github.com/w4ester/fabric4ester/plugins/ai/ollama"
+	"github.com/w4ester/fabric4ester/plugins/ai/openai"
+	"github.com/w4ester/fabric4ester/plugins/ai/openrouter"
+	"github.com/w4ester/fabric4ester/plugins/ai/siliconcloud"
+	"github.com/w4ester/fabric4ester/plugins/db/fsdb"
+	"github.com/w4ester/fabric4ester/plugins/tools/jina"
+    	"github.com/w4ester/fabric4ester/plugins/tools/lang"
+    	"github.com/w4ester/fabric4ester/plugins/tools/youtube"
+)
 )
 
 func NewPluginRegistry(db *fsdb.Db) (ret *PluginRegistry) {
